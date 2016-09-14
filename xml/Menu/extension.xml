@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/chapter-promotion</path>
+    <page_callback>CRM_Extension_Page_ChapterPromotion</page_callback>
+    <title>ChapterPromotion</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/agent-promotion</path>
+    <page_callback>CRM_Extension_Page_AgentPromotion</page_callback>
+    <title>AgentPromotion</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
